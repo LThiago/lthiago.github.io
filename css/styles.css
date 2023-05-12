@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #23262e;
+  color: #ffffff;
+}
+body h1 {
+  font-size: 4rem;
+  font-weight: 900;
+}
+body h2 {
+  font-size: 2rem;
+}
+body p {
+  padding-bottom: 0.4rem;
+}
+body #intro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 80vh;
+}
+body #intro #intro-divider {
+  width: 7rem;
+  border-width: 3px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #00b0ff;
+}
+body #contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: end;
+  height: 20vh;
+}
+body #contact a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 0 0.3rem 1.5rem 0.3rem;
+}
+body #contact a:hover {
+  color: #00b0ff;
+}
+body #contact #credits {
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+  html,
+  body {
+    min-height: 100vh;
+    min-height: -moz-available;
+    min-height: fill-available;
+    min-height: -webkit-fill-available;
+    height: -moz-available;
+    height: fill-available;
+    height: -webkit-fill-available;
+    overflow: hidden;
+  }
+}/*# sourceMappingURL=styles.css.map */
